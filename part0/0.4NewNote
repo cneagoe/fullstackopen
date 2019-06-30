@@ -1,0 +1,8 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note
+server-->browser: Status Code 302 note is created 
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes
+server-->browser: Status Code 304 page is reloaded so the html is fetched again
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
+server-->browser: main.js file is loaded again
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+server->browser: Status Code 200 updated json file is fetched again
