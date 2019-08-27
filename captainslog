@@ -1,0 +1,62 @@
+31.07.19
+- recaped basic react components
+    - jsx in return statement of 
+    a component has to be wrapped 
+    in div or a react fragment
+    or empty element
+- create react app extra files:
+    App.js App.css App.test.js 
+    logo.svg serviceWorker.js
+- learned what transpilation is
+    compilation of js es6 code
+    back to vanilla 
+- learned how to run js es6 files
+    node nameOfFile.js
+- learned that arrays can be 
+    referenced by variables 
+    declared as const 
+    since they are an object
+    and the variable will 
+    allways point to the 
+    same object
+- learned the difference between 
+    concat and push
+    push will add a new 
+    element to the existing array
+    concat will create a new array
+    with an extra element 
+    concat is prefered
+- learned that map applies a function
+    to each element in an array
+    and creates a new array in the 
+    process
+- learned that foreach loop applies a
+    function to each element of an 
+    array without creating a new 
+    object
+- learned how destructuring works 
+    and how ... can be used in 
+    destructuring
+- learned how basic objects are 
+    declared
+- learned that if the key of an object
+    is a string with spaces 
+    the . notation will not work to 
+    access the value, brackets 
+    will have to be used instead
+- leaned how to declare a function 
+    and how to shorten the declaration
+    if needed, for example when
+    used with map
+- learned the difference between 
+    calling a method directly or
+    through a reference when using
+    "this"
+- learned how to declare a class
+- learned that you can destructure 
+    props directly in the parameter
+    part of a component function
+- learned about state in components
+
+
+
